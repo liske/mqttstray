@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   viewBox="0 0 16.933333 16.933334"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="mqttstray.svg"
+   inkscape:export-filename="/home/thomas/src/pymqttfy/res/mqttstray.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.8781539"
+     inkscape:cx="18.047212"
+     inkscape:cy="34.341014"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1572"
+     inkscape:window-height="883"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-280.06665)">
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:#1a1a1a;stroke-width:0.51389718;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0.25694858,286.67361 H 16.676385 v 5.8361 H 0.25694858 Z"
+       id="rect4485"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#e6e6e6;stroke-width:0.35520634;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 3.7520077,287.32345 H 16.094272 v 4.53891 H 3.7520077 v -4.53891"
+       id="rect5134"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.23333359px;line-height:125%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458335px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="9.755477"
+       y="291.15021"
+       id="text5161"><tspan
+         sodipodi:role="line"
+         x="9.755477"
+         y="291.15021"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:4.23333359px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#333333;fill-opacity:1;stroke-width:0.26458335px"
+         id="tspan5163">MQTT</tspan></text>
+    <path
+       style="fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:0.09354431;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1.9379826e-7,286.41664 H 2.1166669 v 6.35 H 1.9379826e-7 Z"
+       id="rect4485-3"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
