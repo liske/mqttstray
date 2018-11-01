@@ -1,6 +1,6 @@
 # mqttstray
 
-*MQTT System Tray*
+*MQTT System Tray Icon*
 
 ![description](res/mqttstray.svg)
 
