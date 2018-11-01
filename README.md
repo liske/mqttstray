@@ -2,6 +2,8 @@
 
 *MQTT System Tray*
 
+![description](res/mqttstray.svg)
+
 
 ## About
 
