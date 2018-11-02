@@ -45,10 +45,10 @@ The following settings are supported for the MQTT [constructor](https://pypi.org
 The following settings are supported for the MQTT [tls_set](https://pypi.org/project/paho-mqtt/#tls-set) invocation:
 - `tls` - enable TLS for the MQTT connection (default: `False`)
 - `verify` - verify the MQTT broker's X.509 certificate (default: `True`)
-- `ca_certs` -
-- `certfile` -
-- `keyfile` -
-- `ciphers` -
+- `ca_certs` - pathname for the CA files (default: *system's CA list is used*)
+- `certfile` - client certificate file used for authentication (default: *None*)
+- `keyfile` - client private key file used for authentication (default: *None*)
+- `ciphers` - restrict allowed encryption ciphers or use python's default
 - `insecure` - ignore MQTT broker's X.509 certificate subject hostname (default: `False`)
 
 
