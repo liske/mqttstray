@@ -7,7 +7,7 @@
 
 ## About
 
-This project provides a small python script which builds system tray icons from messages on MQTT subscribtions. The icons are build combining SVG template files and the jinja2 template processor to render images depending on the MQTT message payload. The payload needs to be JSON encoded.
+This project provides a small python script which builds system tray icons from messages on MQTT subscribtions. The icons are build combining SVG template files and the [jinja2 template](http://jinja.pocoo.org/docs/templates/) processor to render images depending on the MQTT message payload. The payload needs to be JSON encoded.
 
 
 ## Usage
@@ -63,8 +63,18 @@ filename=xDrip/icon-mmol.svg
 outdated=600
 ```
 
+An icon section has the following options:
+- `topic` - a single MQTT topic used for this icon
+- `filename` - SVG filename to be used as [jinja2 template](http://jinja.pocoo.org/docs/templates/) to render the final icon
+
+
+## Examples
+
+Example icons can be found in the [ex/](ex) directory.
+
 
 ## Limitations
 
 - no support for wildcard topics(, yet)
 - currently only one topic per icon is supported
+- only a connection to a single MQTT broker is supported
