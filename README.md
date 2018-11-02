@@ -9,7 +9,7 @@
 
 This project provides a small python script which builds system tray icons from messages on MQTT subscribtions. The icons are build combining SVG template files and the [jinja2 template](http://jinja.pocoo.org/docs/templates/) processor to render images depending on the MQTT message payload. The payload needs to be JSON encoded.
 
-I developed *mqttstray* to get the measurements of my CGM to my GNU/Linux desktop. See also the [xDrip](ex/xDrip/) example.
+I developed *mqttstray* to get the measurements of my CGM to my GNU/Linux desktop. See also the [xDrip+](ex/xDrip/) example.
 
 
 ## Setup

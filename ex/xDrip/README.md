@@ -40,12 +40,12 @@ Use one of the following config snippets depending on your prefered measurement 
 
 ```ini
 [xDrip mmol/l]
-topic=android/broadcast/tl/xdrip
+topic=android/broadcast/my-phone/xdrip
 filename=xDrip/icon-mmol.svg
 ```
 
 ```ini
 [xDrip mg/dl]
-topic=android/broadcast/tl/xdrip
+topic=android/broadcast/my-phone/xdrip
 filename=xDrip/icon-mg.svg
 ```
