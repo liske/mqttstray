@@ -3,9 +3,11 @@
 
 # python built-in packages
 import configparser
+import getpass
 import io
 import json
 import os
+import socket
 import ssl
 import threading
 
@@ -36,8 +38,7 @@ class MQTT(threading.Thread):
     
     self.subs = {}
     self.mqttc = mqtt.Client(
-                   client_id=config[section].get("client_id", "klasdad"),
-                   clean_session=config[section].getboolean("clean_session", True),
+                   client_id=config[section].get("client_id", "{}@{}".format(getpass.getuser(), socket.getfqdn())),
                    transport=config[section].get("transport", "tcp")
                  )
     self.mqttc.enable_logger()

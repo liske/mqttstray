@@ -37,9 +37,8 @@ password=foobar
 The following settings are supported for the MQTT [constructor](https://pypi.org/project/paho-mqtt/#constructor-reinitialise) and MQTT [connect](https://pypi.org/project/paho-mqtt/#connect-reconnect-disconnect) invocation:
 - `host` - the host used for the MQTT connection
 - `port` - the port used for the MQTT connection (default: `1883`)
-- `client_id` -
-- `clean_session` -
-- `transport` -
+- `client_id` - unique client id (default: `${USER}@$(hostname -f)`)
+- `transport` - *tcp* or *websockets* MQTT transport (default: `tcp`)
 - `username` - MQTT authentication username (default: *None*)
 - `password` - MQTT authentication password (default: *None*)
 
