@@ -28,7 +28,7 @@ The main configuration file is `${XDG_CONFIG_HOME}/mqttstray/config`.
 
 The configuration file requires to contain a section for the MQTT connection:
 
-```
+```ini
 [_MQTT]
 host=127.0.0.1
 port=8883
@@ -60,7 +60,7 @@ The following settings are supported for the MQTT [tls_set](https://pypi.org/pro
 
 Any other section not beginning with a underscore (`_`) is handled as an icon configuration:
 
-```
+```ini
 [xDrip mmol/l]
 topic=android/broadcast/my-phone/xdrip
 filename=xDrip/icon-mmol.svg
