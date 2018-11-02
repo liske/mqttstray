@@ -1,0 +1,10 @@
+[Unit]
+Description=MQTT System Tray Icon
+
+[Service]
+Type=simple
+ExecStart=~/src/mqttstray/mqttstray
+Restart=always
+
+[Install]
+WantedBy=default.target
