@@ -78,3 +78,4 @@ Example icons can be found in the [ex/](ex) directory.
 - no support for wildcard topics(, yet)
 - currently only one topic per icon is supported
 - only a connection to a single MQTT broker is supported
+- MQTT payload requires to be JSON encoded
