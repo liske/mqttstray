@@ -65,9 +65,10 @@ class MQTT(threading.Thread):
     
     self.subs = {}
     self.mqttc = mqtt.Client(
-                   client_id=config[section].get("client_id", "{}@{}".format(getpass.getuser(), socket.getfqdn())),
-                   transport=config[section].get("transport", "tcp")
-                 )
+      client_id=config[section].get("client_id", "{}@{}".format(getpass.getuser(), socket.getfqdn())),
+      clean_session=False,
+      transport=config[section].get("transport", "tcp")
+    )
     self.mqttc.enable_logger()
     
     if config[section].getboolean("tls", False):
