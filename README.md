@@ -12,11 +12,19 @@ This project provides a small python script which builds system tray icons from 
 I developed *mqttstray* to get the measurements of my CGM to my GNU/Linux desktop. See also the [xDrip+](ex/xDrip/) example.
 
 
-## Setup
+## Install
 
-- create a python virtual env
-- install missing dependencies within the env
-- create configuration file and SVG template(s)
+```console
+# clone the repository
+git clone https://github.com/liske/mqttstray.git
+
+# create python virtual env
+cd mqttstray && virtualenv -p python3 .venv
+
+# enter virtual env and install missing dependencies
+. .venv/bin/activate
+pip install -r requirements.txt
+```
 
 
 ## Configuration
